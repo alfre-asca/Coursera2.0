@@ -1,0 +1,29 @@
+@media (min-width: 600px){
+	body{
+		background: red;
+	}
+}
+
+@media (min-width: 900px){
+	body{
+		background: green;
+	}
+}
+
+.responsive{
+	border: 1px solid black;
+}
+
+@media (min-width: 600px){
+	.responsive{
+		display: inline-block;
+		width: 200px;
+	}
+}
+
+@media (min-width: 900px){
+	.responsive{
+		display: inline-block;
+		width: 400px;
+	}
+}
